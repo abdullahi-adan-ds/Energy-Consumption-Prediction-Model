@@ -1,3 +1,36 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore data files (optional – keep only sample datasets or links)
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Ignore large model files
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
